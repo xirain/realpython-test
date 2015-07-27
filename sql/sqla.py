@@ -10,4 +10,4 @@ cursor.execute("""CREATE TABLE population(
     city TEXT, state TEXT, population INT)
     """)
 
-conn.close
+conn.close()
