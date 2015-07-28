@@ -1,3 +1,4 @@
 .gitignore
 env/
 sql/*.db
+sql/sqlc.py
