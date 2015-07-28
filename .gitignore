@@ -1,4 +1,4 @@
 .gitignore
 env/
 sql/*.db
-sql/sqlc.py
+sql/employees.csv
