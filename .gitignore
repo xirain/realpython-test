@@ -2,3 +2,4 @@
 env/
 sql/*.db
 sql/employees.csv
+flask-blog/blog.db
