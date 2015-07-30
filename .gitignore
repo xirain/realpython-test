@@ -4,3 +4,5 @@ sql/*.db
 sql/employees.csv
 flask-blog/blog.db
 interlude/*.pyc
+flasktaskr/project/flasktaskr.db
+flasktaskr/project/*.pyc
