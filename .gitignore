@@ -2,4 +2,6 @@
 env/
 *.db
 *.pyc
+.coverage
 sql/employees.csv
+flasktaskr/project/htmlcov/*

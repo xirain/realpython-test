@@ -2,7 +2,7 @@
 {% block content %}
 
 <h1>Welcome to FlaskTaskr.</h1>
-<div class="lead">Please sign in to access your task list.</div>
+<h3>Please sign in to access your task list.</h3>
 
 <form class="form-signin" role="form" method="post" action="/">
     {{ form.csrf_token }}
@@ -10,7 +10,7 @@
     {{ form.name(placeholder="name") }}
     <span class="error">
         {% if form.name.errors %}
-            {% for error in form.name.erros %}
+            {% for error in form.name.errors %}
                 {{ error }}
             {% endfor %}
         {% endif %}
@@ -20,7 +20,7 @@
     {{ form.password(placeholder="password") }}
     <span class="error">
         {% if form.password.errors %}
-            {% for error in form.password.erros %}
+            {% for error in form.password.errors %}
                 {{ error }}
             {% endfor %}
         {% endif %}
