@@ -5,3 +5,4 @@ env/
 .coverage
 sql/employees.csv
 flasktaskr/project/htmlcov/*
+*.log
